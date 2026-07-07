@@ -30,8 +30,28 @@ align-items:center;
 }
 
 .logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:70px;
+height:70px;
+object-fit:contain;
+background:transparent;
+}
+
+.logo-text h1{
 font-size:30px;
-font-weight:bold;
+margin:0;
+color:white;
+}
+
+.logo-text p{
+font-size:15px;
+color:#FFD700;
+margin-top:3px;
 }
 
 .branch{
@@ -86,11 +106,14 @@ font-weight:bold;
 
 <header>
 
-<div>
+<div class="logo">
 
-<div class="logo">Dream Tour & Travels</div>
+<img src="images/logo.png" alt="Dream Tour Logo">
 
-<div class="branch">Howrah Branch</div>
+<div class="logo-text">
+<h1>Dream Tour & Travels</h1>
+<p>Howrah Branch</p>
+</div>
 
 </div>
 
