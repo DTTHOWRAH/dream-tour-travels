@@ -142,3 +142,48 @@ margin-right:auto;
 font-size:18px;
 padding:16px 40px;
 }
+/* Featured Tours */
+
+.featured-tours{
+    padding:80px 8%;
+    background:#f5f7fb;
+    text-align:center;
+}
+
+.featured-tours h2{
+    font-size:40px;
+    color:#0d47a1;
+    margin-bottom:10px;
+}
+
+.featured-tours p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+.tour-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.tour-card{
+    background:#fff;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.tour-card:hover{
+    transform:translateY(-10px);
+}
+
+.tour-card h3{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.tour-card p{
+    margin-bottom:20px;
+}
